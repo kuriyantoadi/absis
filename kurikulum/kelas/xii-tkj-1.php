@@ -28,7 +28,7 @@
 </head>
 
 <body>
-  <?php include('panel.php') ?>
+  <?php include('panel-kelas.php') ?>
 
   <div class="breadcrumbs">
       <div class="col-sm-4">

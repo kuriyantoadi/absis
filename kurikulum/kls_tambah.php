@@ -35,50 +35,66 @@
   <?php include('panel.php') ?>
 
   <div class="content mt-3">
-      <div class="animated fadeIn">
-          <div class="row">
+    <div class="animated fadeIn">
+      <div class="row">
 
 
-              <div class="col-md-12">
-                  <div class="card">
+        <div class="col-md-12">
+          <div class="card">
 
-                      <div class="card-body">
-                          <table class="table table-bordered">
+            <div class="card-body">
+              <table class="table table-bordered">
 
-                            <h3 style="margin-bottom: 40px; margin-top: 20px"><center>Tambah Kelas</h3>
+                <h3 style="margin-bottom: 40px; margin-top: 20px">
+                  <center>Tambah Kelas
+                </h3>
+                <form class="" action="kls_up_tambah.php" method="post">
 
-                              <tr>
-                                <td>Nama Kelas</td>
-                                <td>
-                                  <input type="input" name="nama_kelas" class="form-control" value="" placeholder="Nama Kelas">
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>Wali Kelas</td>
-                                <td>
-                                  <input type="input" name="wali_kelas" class="form-control" value="" placeholder="Wali Kelas">
-                                </td>
-                              </tr>
+                  <tr>
+                    <td>Tingkat Kelas</td>
+                    <td>
+                      <select class="form-control" name="tingkat_kelas">
+                        <option value="">Tingkat Kelas</option>
+                        <option value="XII">XII</option>
+                        <option value="XI">XI</option>
+                        <option value="X">X</option>
+                      </select>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Nama Kelas</td>
+                    <td>
+                      <input type="input" name="nama_kelas" class="form-control" value="" placeholder="Nama Kelas">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Wali Kelas</td>
+                    <td>
+                      <input type="input" name="wali_kelas" class="form-control" value="" placeholder="Wali Kelas">
+                    </td>
+                  </tr>
 
-                              <tr>
-                                <td colspan="2"><center>
-                                  <input type="submit" name="" class="btn btn-success " value="Submit">
-                                </td>
-                              </tr>
+                  <tr>
+                    <td colspan="2">
+                      <center>
+                        <input type="submit" name="" class="btn btn-success " value="Submit">
+                    </td>
+                  </tr>
 
+                </form>
 
-                          </table>
-                      </div>
-                  </div>
-              </div>
-
-
+              </table>
+            </div>
           </div>
-      </div><!-- .animated -->
+        </div>
+
+
+      </div>
+    </div><!-- .animated -->
   </div><!-- .content -->
 
 
-</div><!-- /#right-panel -->
+  </div><!-- /#right-panel -->
 
 
 

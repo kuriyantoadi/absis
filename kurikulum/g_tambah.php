@@ -35,65 +35,70 @@
   <?php include('panel.php') ?>
 
   <div class="content mt-3">
-      <div class="animated fadeIn">
-          <div class="row">
+    <div class="animated fadeIn">
+      <div class="row">
 
 
-              <div class="col-md-12">
-                  <div class="card">
+        <div class="col-md-12">
+          <div class="card">
 
-                      <div class="card-body">
-                          <table class="table table-bordered">
+            <div class="card-body">
+              <table class="table table-bordered">
 
-                            <h3 style="margin-bottom: 40px; margin-top: 20px"><center>Tambah Guru</h3>
-
-                              <tr>
-                                <td>Nama Guru</td>
-                                <td>
-                                  <input type="input" name="nama_guru" class="form-control" value="" placeholder="Nama Guru">
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>Username</td>
-                                <td>
-                                  <input type="input" name="username" class="form-control" value="" placeholder="Username">
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>Password</td>
-                                <td>
-                                  <input type="input" name="password" class="form-control" value="" placeholder="Password">
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>Level</td>
-                                <td>
-                                  <select class="form-control" name="level">
-                                    <option value="">Level Guru</option>
-                                    <option value="kurikulum">Kurikulum</option>
-                                    <option value="Guru">Guru</option>
-                                  </select>
-                                </td>
-                              </tr>
-                              <tr>
-                                <td colspan="2"><center>
-                                  <input type="submit" name="" class="btn btn-success " value="Submit">
-                                </td>
-                              </tr>
-
-
-                          </table>
-                      </div>
-                  </div>
-              </div>
+                <h3 style="margin-bottom: 40px; margin-top: 20px">
+                  <center>Tambah Guru
+                </h3>
+                <form class="" action="g_up_tambah.php" method="post">
+                  <tr>
+                    <td>Nama Guru</td>
+                    <td>
+                      <input type="input" name="nama_guru" class="form-control" value="" placeholder="Nama Guru" required>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Username</td>
+                    <td>
+                      <input type="input" name="username" class="form-control" value="" placeholder="Username" required>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Password</td>
+                    <td>
+                      <input type="password" name="password" class="form-control" value="" placeholder="Password" required>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Level</td>
+                    <td>
+                      <select class="form-control" name="level" required>
+                        <option value="">Pilih Level</option>
+                        <option value="kurikulum">Kurikulum</option>
+                        <option value="Guru">Guru</option>
+                      </select>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <center>
+                        <input type="submit" name="" class="btn btn-success " value="Submit">
+                    </td>
+                  </tr>
 
 
+              </table>
+              </form>
+
+            </div>
           </div>
-      </div><!-- .animated -->
+        </div>
+
+
+      </div>
+    </div><!-- .animated -->
   </div><!-- .content -->
 
 
-</div><!-- /#right-panel -->
+  </div><!-- /#right-panel -->
 
 
 

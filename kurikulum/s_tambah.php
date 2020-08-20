@@ -35,60 +35,66 @@
   <?php include('panel.php') ?>
 
   <div class="content mt-3">
-      <div class="animated fadeIn">
-          <div class="row">
+    <div class="animated fadeIn">
+      <div class="row">
 
 
-              <div class="col-md-12">
-                  <div class="card">
+        <div class="col-md-12">
+          <div class="card">
 
-                      <div class="card-body">
-                          <table class="table table-bordered">
+            <div class="card-body">
+              <table class="table table-bordered">
 
-                            <h3 style="margin-bottom: 40px; margin-top: 20px"><center>Tambah Siswa</h3>
-
-                              <tr>
-                                <td>NISN Siswa</td>
-                                <td>
-                                  <input type="input" name="nama_mapel" class="form-control" value="" placeholder="NISN Siswa">
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>Nama Siswa</td>
-                                <td>
-                                  <input type="input" name="nama_siswa" class="form-control" value="" placeholder="Nama Siswa">
-                                </td>
-                              </tr>
-
-                              <tr>
-                                <td>Kelas</td>
-                                  <td>
-                                    <select class="form-control" name="level">
-                                      <option value="">Level Guru</option>
-                                  
-                                    </select>
-                                  </td>
-                              </tr>
-
-                              <tr>
-                                <td colspan="2"><center>
-                                  <input type="submit" name="" class="btn btn-success " value="Submit">
-                                </td>
-                              </tr>
+                <h3 style="margin-bottom: 40px; margin-top: 20px">
+                  <center>Tambah Siswa
+                </h3>
+                <form class="" action="s_up_tambah.php" method="post">
 
 
-                          </table>
-                      </div>
-                  </div>
-              </div>
+                  <tr>
+                    <td>NISN Siswa</td>
+                    <td>
+                      <input type="input" name="nisn" class="form-control" value="" placeholder="NISN Siswa">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Nama Siswa</td>
+                    <td>
+                      <input type="input" name="nama_siswa" class="form-control" value="" placeholder="Nama Siswa">
+                    </td>
+                  </tr>
 
+                  <tr>
+                    <td>Kelas</td>
+                    <td>
+                      <select class="form-control" name="id_kelas">
+                        <?php include('function.php');
+                        opsi_kelas();
+                         ?>
+                      </select>
+                    </td>
+                  </tr>
 
+                  <tr>
+                    <td colspan="2">
+                      <center>
+                        <input type="submit" name="" class="btn btn-success " value="Submit">
+                    </td>
+                  </tr>
+
+                </form>
+              </table>
+            </div>
           </div>
-      </div><!-- .animated -->
+        </div>
+
+
+      </div>
+    </div><!-- .animated -->
   </div><!-- .content -->
 
 
-</div><!-- /#right-panel -->
+  </div><!-- /#right-panel -->
 
 
 

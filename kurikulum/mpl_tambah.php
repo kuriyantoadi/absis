@@ -35,64 +35,68 @@
   <?php include('panel.php') ?>
 
   <div class="content mt-3">
-      <div class="animated fadeIn">
-          <div class="row">
+    <div class="animated fadeIn">
+      <div class="row">
 
 
-              <div class="col-md-12">
-                  <div class="card">
+        <div class="col-md-12">
+          <div class="card">
 
-                      <div class="card-body">
-                          <table class="table table-bordered">
+            <div class="card-body">
+              <table class="table table-bordered">
 
-                            <h3 style="margin-bottom: 40px; margin-top: 20px"><center>Tambah Mata Pelajaran</h3>
+                <h3 style="margin-bottom: 40px; margin-top: 20px">
+                  <center>Tambah Mata Pelajaran
+                </h3>
+                <form class="" action="mpl_up_tambah.php" method="post">
 
-                              <tr>
-                                <td>Nama Mata Pelajaran</td>
-                                <td>
-                                  <input type="input" name="nama_mapel" class="form-control" value="" placeholder="Nama Pelajaran">
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>Guru Pengampu Mata Pelajaran</td>
-                                  <td>
-                                    <select class="form-control" name="level">
-                                      <option value="">Level Guru</option>
-                                      <option value="kurikulum">Kurikulum</option>
-                                      <option value="Guru">Guru</option>
-                                    </select>
-                                  </td>
-                              </tr>
-                              <tr>
-                                <td>Kelas</td>
-                                  <td>
-                                    <select class="form-control" name="level">
-                                      <option value="">Level Guru</option>
-                                      <option value="kurikulum">Kurikulum</option>
-                                      <option value="Guru">Guru</option>
-                                    </select>
-                                  </td>
-                              </tr>
+                  <tr>
+                    <td>Nama Mata Pelajaran</td>
+                    <td>
+                      <input type="input" name="nama_mapel" class="form-control" value="" placeholder="Nama Pelajaran">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Guru Pengampu Mata Pelajaran</td>
+                    <td>
+                      <select class="form-control" name="id_guru">
+                        <?php
+                        include('function.php');
+                        opsi_guru(); ?>
+                      </select>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Kelas</td>
+                    <td>
+                      <select class="form-control" name="id_kelas">
+                        <?php
+                       opsi_kelas(); ?>
+                      </select>
+                    </td>
+                  </tr>
 
-                              <tr>
-                                <td colspan="2"><center>
-                                  <input type="submit" name="" class="btn btn-success " value="Submit">
-                                </td>
-                              </tr>
+                  <tr>
+                    <td colspan="2">
+                      <center>
+                        <input type="submit" name="" class="btn btn-success " value="Submit">
+                    </td>
+                  </tr>
 
+                </form>
 
-                          </table>
-                      </div>
-                  </div>
-              </div>
-
-
+              </table>
+            </div>
           </div>
-      </div><!-- .animated -->
+        </div>
+
+
+      </div>
+    </div><!-- .animated -->
   </div><!-- .content -->
 
 
-</div><!-- /#right-panel -->
+  </div><!-- /#right-panel -->
 
 
 

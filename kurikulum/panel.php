@@ -28,21 +28,19 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-th"></i>Kelas X</a>
             <ul class="sub-menu children dropdown-menu">
               <li><i class="fa fa-users"></i><a href="system/kelas.php?kelas=X+AKL+1">X AKL 1</a></li>
-              <li><i class="fa fa-users"></i><a href="">X AKL 2</a></li>
-              <li><i class="fa fa-users"></i><a href="">X OTKP 1</a></li>
-              <li><i class="fa fa-users"></i><a href="">X OTKP 2</a></li>
-              <li><i class="fa fa-users"></i><a href="">X TKJ 1</a></li>
-              <li><i class="fa fa-users"></i><a href="">X TKJ 2</a></li>
-              <li><i class="fa fa-users"></i><a href="">X RPL 1</a></li>
-              <li><i class="fa fa-users"></i><a href="">X RPL 2</a></li>
-              <li><i class="fa fa-users"></i><a href="">X TKR 1</a></li>
-              <li><i class="fa fa-users"></i><a href="">X TKR 2</a></li>
-              <li><i class="fa fa-users"></i><a href="">X TPM 1</a></li>
-              <li><i class="fa fa-users"></i><a href="">X TPM 2</a></li>
-              <li><i class="fa fa-users"></i><a href="">X TPM 3</a></li>
-              <li><i class="fa fa-users"></i><a href="">X TPM 4</a></li>
-              <li><i class="fa fa-users"></i><a href="">X TPM 5</a></li>
-              <li><i class="fa fa-users"></i><a href="">X TPM 6</a></li>
+              <li><i class="fa fa-users"></i><a href="">XI AKL 2</a></li>
+              <li><i class="fa fa-users"></i><a href="">XI OTKP 1</a></li>
+              <li><i class="fa fa-users"></i><a href="">XI OTKP 2</a></li>
+              <li><i class="fa fa-users"></i><a href="">XI TKJ 1</a></li>
+              <li><i class="fa fa-users"></i><a href="">XI TKJ 2</a></li>
+              <li><i class="fa fa-users"></i><a href="">XI RPL 1</a></li>
+              <li><i class="fa fa-users"></i><a href="">XI RPL 2</a></li>
+              <li><i class="fa fa-users"></i><a href="">XI TKR 1</a></li>
+              <li><i class="fa fa-users"></i><a href="">XI TKR 2</a></li>
+              <li><i class="fa fa-users"></i><a href="">XI TPM 1</a></li>
+              <li><i class="fa fa-users"></i><a href="">XI TPM 2</a></li>
+              <li><i class="fa fa-users"></i><a href="">XI TPM 3</a></li>
+              <li><i class="fa fa-users"></i><a href="">XI TPM 4</a></li>
 
             </ul>
           </li>
